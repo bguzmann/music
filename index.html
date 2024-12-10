@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Music Portal</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header>
+        <h1>RYTHM Music</h1>
+        <p>Discover and Enjoy The Latest Tunes!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#artists">Artists</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Featured Music</h2>
+        <div class="featured-music">
+            <div class="featured-item">
+                <img src="img/50cent.jpg" alt="Featured Music 1">
+                <h3>50 Cent - Wish Me Luck</h3>
+                <audio controls class="audio-player">
+                    <source src="audio/NSG_-_MCM_(prod._Yung_Felix)_[Official_Video](256k).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="featured-item">
+                <img src="img/be.jpg" alt="Featured Music 2">
+                <h3>Billie Eilish - Ocean Eyes</h3>
+                <audio controls class="audio-player">
+                    <source src="audio/Jizzle_-_Work_&_Pray_(Official_Video)(256k).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="featured-item">
+                <img src="img/drake.jpg" alt="Featured Music 3">
+                <h3>Drake - Twist & Turn</h3>
+                <audio controls class="audio-player">
+                    <source src="audio/Nasty_C_-_Jack_Instrumental.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="artists">
+        <h2>Featured Artists</h2>
+        <div class="artist-section">
+            <div class="artist-item">
+                <img src="img/jhus1.jpg" alt="Artist 1">
+                <h3>J Hus - Fight For Your Right</h3>
+                <audio controls class="audio-player">
+                    <source src="audio/J_Hus_-_Fight_for_Your_Right_(Official_Audio)(256k).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="artist-item">
+                <img src="img/shen1.jpg" alt="Artist 2">
+                <h3>Shenseea - Bad Habit</h3>
+                <audio controls class="audio-player">
+                    <source src="audio/Shenseea_-_Bad_Habit_(Official_Lyric_Video)(256k).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="artist-item">
+                <img src="img/popcaan.jpg" alt="Artist 3">
+                <h3>Popcaan - Elevate</h3>
+                <audio controls class="audio-player">
+                    <source src="audio/Popcaan__-_TWIST_&_TURN_(feat._Drake_&_PARTYNEXTDOOR)_(Official_Audio)(256k).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+        
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>    
+
+    <footer>
+        <p>&copy; 2024 RYTHM Music. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
